@@ -1,4 +1,4 @@
-# InGovGuru-boilerplate
+# Auto Deploy
 
 Boilerplate for an API written in Express, It includes:
 
