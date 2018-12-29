@@ -12,7 +12,7 @@ services:
     expose:
       - '4040'
   app:
-    container_name: ingovguru
+    container_name: website
     build: .
     ports:
       - '3000:3000'
