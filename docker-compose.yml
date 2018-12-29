@@ -1,0 +1,22 @@
+version: '3'
+volumes:
+  db: 
+services:
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '4040:27017'
+    volumes:
+      - db:/data/db
+    expose:
+      - '4040'
+  app:
+    container_name: ingovguru
+    build: .
+    ports:
+      - '3000:3000'
+    links:
+      - mongo
+    expose:
+      - '3000'
