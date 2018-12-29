@@ -28,8 +28,8 @@ Boilerplate for an API written in Express, It includes:
 
 ### clone this project 
 
-1. `git clone https://github.com/XelpmocDesignandTechPvtLtd/InGovGuru-api.git`
-2. `cd InGovGuru-api `
+1. `git clone https://github.com/vinay2901/autodeploy`
+2. `cd autodeploy `
 
 
 ### Pull Request Workflow
